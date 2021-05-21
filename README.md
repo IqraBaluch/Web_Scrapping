@@ -13,3 +13,6 @@ In order to get the html of the website, we need to make a request. Python ha a 
   When we printed out all of that HTML from our request, it seemed pretty long and messy. How could we pull out the relevant information from that long string? <br>
   BeautifulSoup is a Python library that makes it easy for us to traverse an HTML page and pull out the parts we’re interested in. We can import it by using the line:<br>
 <b>from bs4 import BeautifulSoup<b>
+Then, all we have to do is convert the HTML document to a BeautifulSoup object!<br>
+  <b>soup = BeautifulSoup("rainbow.html", "html.parser")<b>
+    
