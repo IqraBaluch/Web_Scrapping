@@ -8,7 +8,7 @@ With the right dataset alot of exciting works can be done. Once we have interest
 <br> Mostly we find the dataset we are looking for, but there is no way to download it. This is where BeautifulSoup comes in handy to scrape the HTML. BeautifulSoup is used to analyze online data and bring the data in a structure, we can understand it. <br> 
 ## Requests
 In order to get the html of the website, we need to make a request. Python ha a library "requests", that makes getting content really easy. All we have to do is to import the library and and then feed in the URL we want to GET: <br>
-<b> Request Code </b>
+<b> Code for requesing data from Website </b>
 ## The BeautifulSoup Object
   When we printed out all of that HTML from our request, it seemed pretty long and messy. How could we pull out the relevant information from that long string? <br>
   BeautifulSoup is a Python library that makes it easy for us to traverse an HTML page and pull out the parts we’re interested in. We can import it by using the line:
@@ -29,3 +29,13 @@ print(soup.div)
 NavigableStrings are the pieces of text that are in the HTML tags on the page. You can get the string inside of the tag by calling .string:
 <br>
 <b> Code Of Taking out String from Tags <b/>
+## Navigating by Tags
+  To navigate through a tree, we can call the tag names themselves. Imagine we have an HTML page that has different tags like (h1, p, li, ul, ol) <br> If we made a soup object out of this HTML page, we have seen that we can get the first h1 element by calling:
+
+print(soup.h1)<br> We can get the children of a tag by accessing the .children attribute:
+<br>
+for child in soup.ul.children:
+    print(child)<br>
+  
+  
+  
