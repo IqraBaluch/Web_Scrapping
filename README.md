@@ -23,9 +23,9 @@ BeautifulSoup breaks the HTML page into several types of objects.
 ### Tags
 A Tag corresponds to an HTML Tag in the original document. These lines of code:
 <br>
-soup = BeautifulSoup('<div id="example">An example div</div><p>An example p tag</p>')
+"soup = BeautifulSoup('<div id="example">An example div</div><p>An example p tag</p>')"
 print(soup.div)
 ### NavigableStrings
 NavigableStrings are the pieces of text that are in the HTML tags on the page. You can get the string inside of the tag by calling .string:
 <br>
-print(soup.div.string)
+<b> Code Of Taking out String from Tags <b/>
