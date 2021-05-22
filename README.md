@@ -28,7 +28,7 @@ print(soup.div)
 ### NavigableStrings
 NavigableStrings are the pieces of text that are in the HTML tags on the page. You can get the string inside of the tag by calling .string:
 <br>
-<b> Code Of Taking out String from Tags <b/>
+<b> Code Of Taking out String from Tags </b>
 ## Navigating by Tags
   To navigate through a tree, we can call the tag names themselves. Imagine we have an HTML page that has different tags like (h1, p, li, ul, ol) <br> If we made a soup object out of this HTML page, we have seen that we can get the first h1 element by calling:
 
