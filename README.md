@@ -37,5 +37,6 @@ print(soup.h1)<br> We can get the children of a tag by accessing the .children a
 for child in soup.ul.children:
     print(child)<br>
   
-  
+  ## Website Structure
+When we’re telling our Python script what HTML tags to grab, we need to know the structure of the website and what we’re looking for.
   
