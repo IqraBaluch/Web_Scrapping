@@ -40,4 +40,5 @@ for child in soup.ul.children:
   ## Website Structure
 When we’re telling our Python script what HTML tags to grab, we need to know the structure of the website and what we’re looking for.
 Many browsers, including Chrome, Firefox, and Safari, have Dev Tools that help you inspect a webpage and see what HTML elements it is composed of.  
+First learn this,
 <a href="https://www.codecademy.com/articles/use-devtools">How To Use DevTools</a>
