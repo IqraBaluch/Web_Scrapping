@@ -42,3 +42,5 @@ When we’re telling our Python script what HTML tags to grab, we need to know t
 Many browsers, including Chrome, Firefox, and Safari, have Dev Tools that help you inspect a webpage and see what HTML elements it is composed of.  
 First learn this,
 <a href="https://www.codecademy.com/articles/use-devtools">How To Use DevTools</a>
+## Find All
+If we want to find all of the occurrences of a tag, instead of just the first one, we can use .find_all().
