@@ -44,3 +44,6 @@ First learn this,
 <a href="https://www.codecademy.com/articles/use-devtools">How To Use DevTools</a>
 ## Find All
 If we want to find all of the occurrences of a tag, instead of just the first one, we can use .find_all().
+This function can take in just the name of a tag and returns a list of all occurrences of that tag.
+
+print(soup.find_all("h1"))
