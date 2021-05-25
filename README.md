@@ -50,3 +50,6 @@ print(soup.find_all("h1"))
 
 ## Select for CSS Selectors
 Another way to capture your desired elements with the soup object is to use CSS selectors. The .select() method will take in all of the CSS selectors you normally use in a .css file!
+If we wanted to select all of the elements that have the class, we could use the command:
+
+soup.select(".name of class")
