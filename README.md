@@ -47,3 +47,6 @@ If we want to find all of the occurrences of a tag, instead of just the first on
 This function can take in just the name of a tag and returns a list of all occurrences of that tag.
 
 print(soup.find_all("h1"))
+
+## Select for CSS Selectors
+Another way to capture your desired elements with the soup object is to use CSS selectors. The .select() method will take in all of the CSS selectors you normally use in a .css file!
