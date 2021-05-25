@@ -53,3 +53,6 @@ Another way to capture your desired elements with the soup object is to use CSS 
 If we wanted to select all of the elements that have the class, we could use the command:
 
 soup.select(".name of class")
+If we wanted to select all of the elements that have the class 'recipeLink', we could use the command:
+
+soup.select(".recipeLink")
